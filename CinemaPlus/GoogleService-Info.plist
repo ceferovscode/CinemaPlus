@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBS6bi3JG43Rw2Q4qxKIbM4Z5whJ4NLHFw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>283427735184</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Alparslan.CinemaPlus</string>
+	<key>PROJECT_ID</key>
+	<string>cinemaplus-70fff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cinemaplus-70fff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:283427735184:ios:b066a3626882f3009ffa15</string>
+	<key>DATABASE_URL</key>
+	<string>https://cinemaplus-70fff-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

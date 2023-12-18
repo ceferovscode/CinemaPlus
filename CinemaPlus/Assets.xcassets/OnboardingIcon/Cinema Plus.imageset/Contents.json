@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Cinema Plus.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -14,7 +14,7 @@ class HomeManager {
     
     func getPopularMovie(page: Int, complete: @escaping ((Movie?, String?) -> ())) {
         NetworkManager.shared.request(model: Movie.self,
-                                      url: HomeEndPoint.upcoming.path + "&page=\(page)",
+                                      url: HomeEndPoint.popular.path + "&page=\(page)",
                                       complete: complete)
     }
     

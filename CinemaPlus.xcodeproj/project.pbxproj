@@ -149,7 +149,7 @@
 			children = (
 				0713B6402B063DF800ABFF47 /* Core */,
 				0713B6452B063EA300ABFF47 /* Home Manager */,
-				072EABFC2B319D8A004C0114 /* DetailsManager */,
+				072EABFC2B319D8A004C0114 /* DetailManager */,
 				072EABE02B308E91004C0114 /* GenreManager */,
 			);
 			path = "Network Manager";
@@ -226,13 +226,13 @@
 			path = Genre;
 			sourceTree = "<group>";
 		};
-		072EABFC2B319D8A004C0114 /* DetailsManager */ = {
+		072EABFC2B319D8A004C0114 /* DetailManager */ = {
 			isa = PBXGroup;
 			children = (
 				072EAC032B31A3E7004C0114 /* DetailsManager.swift */,
 				072EAC012B31A3DF004C0114 /* DetailsHelper.swift */,
 			);
-			path = DetailsManager;
+			path = DetailManager;
 			sourceTree = "<group>";
 		};
 		0742E8EC2B027316008A0EB2 /* Controller */ = {

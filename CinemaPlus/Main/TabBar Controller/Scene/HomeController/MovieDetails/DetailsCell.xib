@@ -26,39 +26,102 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marvel Studios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sft-DM-DB9">
-                        <rect key="frame" x="0.0" y="871" width="89" height="12"/>
+                        <rect key="frame" x="0.0" y="871" width="88.666666666666671" height="12"/>
                         <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
-                        <color key="textColor" systemColor="scrollViewTexturedBackgroundColor"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNz-jd-XRl">
+                        <rect key="frame" x="152.66666666666666" y="871" width="18.666666666666657" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(IMDb)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YL2-fP-gPc">
+                        <rect key="frame" x="173.33333333333334" y="871" width="40" height="12"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGw-Zr-Pim">
-                        <rect key="frame" x="0.0" y="915.66666666666652" width="779" height="518.33333333333348"/>
+                        <rect key="frame" x="8" y="975.66666666666663" width="779" height="458.33333333333337"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <string key="text">Jared Leto as Dr. Michael Morbius: A scientist suffering from a rare blood disease whose attempts to cure himself afflict him with a form of transgenic vampirism, gaining all of the superhuman abilities but none of the superstitious weaknesses associated with vampires.</string>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Release date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1Q-eq-y9K">
+                        <rect key="frame" x="0.0" y="907" width="98" height="20.333333333333371"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ini-7A-vXZ">
+                        <rect key="frame" x="283" y="908" width="46.333333333333314" height="20.333333333333371"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="December 9 2023" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD3-oa-A7f">
+                        <rect key="frame" x="0.0" y="935.33333333333337" width="102.66666666666667" height="14.333333333333371"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crime" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2w-Gv-RlG">
+                        <rect key="frame" x="283" y="937" width="46.333333333333314" height="14.333333333333371"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VP-E2-CMl">
+                        <rect key="frame" x="120.66666666666669" y="865" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="BOn-bK-5Px"/>
+                            <constraint firstAttribute="height" constant="24" id="UdM-NE-iZF"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="Group 262"/>
+                    </button>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
+                <constraint firstItem="R2w-Gv-RlG" firstAttribute="leading" secondItem="ini-7A-vXZ" secondAttribute="leading" id="1cq-EO-ACW"/>
                 <constraint firstItem="My6-fZ-fnn" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="7hl-sG-uiy"/>
-                <constraint firstItem="TGw-Zr-Pim" firstAttribute="top" secondItem="My6-fZ-fnn" secondAttribute="bottom" constant="100" id="9Vv-5b-SIN"/>
+                <constraint firstItem="D1Q-eq-y9K" firstAttribute="top" secondItem="sft-DM-DB9" secondAttribute="bottom" constant="24" id="DTu-Iq-bVy"/>
                 <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="aOg-1f-Kyd" secondAttribute="trailing" constant="8" id="DeM-4w-Di8"/>
-                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="TGw-Zr-Pim" secondAttribute="trailing" id="HFm-PT-che"/>
-                <constraint firstItem="TGw-Zr-Pim" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="HGF-Wa-nsd"/>
+                <constraint firstItem="xD3-oa-A7f" firstAttribute="top" secondItem="D1Q-eq-y9K" secondAttribute="bottom" constant="8" symbolic="YES" id="Fhc-sI-Vev"/>
+                <constraint firstItem="1VP-E2-CMl" firstAttribute="leading" secondItem="sft-DM-DB9" secondAttribute="trailing" constant="32" id="IFx-iW-bPT"/>
                 <constraint firstItem="sft-DM-DB9" firstAttribute="top" secondItem="aOg-1f-Kyd" secondAttribute="bottom" constant="8" id="Iwd-Dz-TjW"/>
+                <constraint firstItem="xD3-oa-A7f" firstAttribute="leading" secondItem="D1Q-eq-y9K" secondAttribute="leading" id="OSq-qw-8Bs"/>
+                <constraint firstItem="CNz-jd-XRl" firstAttribute="leading" secondItem="1VP-E2-CMl" secondAttribute="trailing" constant="8" id="Rdq-nH-wGK"/>
+                <constraint firstItem="1VP-E2-CMl" firstAttribute="top" secondItem="aOg-1f-Kyd" secondAttribute="bottom" constant="2" id="S2S-3C-2yD"/>
                 <constraint firstItem="aOg-1f-Kyd" firstAttribute="top" secondItem="My6-fZ-fnn" secondAttribute="bottom" constant="8" id="UXF-1f-mkH"/>
-                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="TGw-Zr-Pim" secondAttribute="bottom" constant="8" id="UcL-SU-fiu"/>
+                <constraint firstItem="R2w-Gv-RlG" firstAttribute="top" secondItem="ini-7A-vXZ" secondAttribute="bottom" constant="8.6666666666666288" id="UnO-3p-pJp"/>
+                <constraint firstItem="TGw-Zr-Pim" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" constant="8" id="Z2a-qx-8z0"/>
+                <constraint firstItem="TGw-Zr-Pim" firstAttribute="top" secondItem="My6-fZ-fnn" secondAttribute="bottom" constant="160" id="Zm6-z6-jVl"/>
                 <constraint firstItem="aOg-1f-Kyd" firstAttribute="leading" secondItem="My6-fZ-fnn" secondAttribute="leading" id="aJz-vd-ULP"/>
+                <constraint firstItem="ini-7A-vXZ" firstAttribute="top" secondItem="aOg-1f-Kyd" secondAttribute="bottom" constant="45" id="atg-A3-V0g"/>
+                <constraint firstItem="CNz-jd-XRl" firstAttribute="top" secondItem="aOg-1f-Kyd" secondAttribute="bottom" constant="8" id="bMz-Yp-NUg"/>
+                <constraint firstItem="YL2-fP-gPc" firstAttribute="top" secondItem="aOg-1f-Kyd" secondAttribute="bottom" constant="8" id="cqG-Ze-ROv"/>
                 <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="My6-fZ-fnn" secondAttribute="top" constant="55" id="dON-Zo-mj1"/>
+                <constraint firstItem="D1Q-eq-y9K" firstAttribute="leading" secondItem="sft-DM-DB9" secondAttribute="leading" id="dvt-wz-olG"/>
                 <constraint firstItem="My6-fZ-fnn" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.55" id="fkv-VL-Yta"/>
                 <constraint firstItem="My6-fZ-fnn" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="gFm-k2-xyq"/>
+                <constraint firstItem="R2w-Gv-RlG" firstAttribute="trailing" secondItem="ini-7A-vXZ" secondAttribute="trailing" id="hsr-Hw-a2F"/>
+                <constraint firstItem="TGw-Zr-Pim" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="8" id="lsf-rL-dXL"/>
+                <constraint firstItem="ini-7A-vXZ" firstAttribute="leading" secondItem="D1Q-eq-y9K" secondAttribute="trailing" constant="185" id="mzf-tB-Fa1"/>
+                <constraint firstItem="YL2-fP-gPc" firstAttribute="leading" secondItem="CNz-jd-XRl" secondAttribute="trailing" constant="2" id="pXA-sz-gff"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="TGw-Zr-Pim" secondAttribute="bottom" constant="8" id="sH0-KT-NlE"/>
                 <constraint firstItem="sft-DM-DB9" firstAttribute="leading" secondItem="aOg-1f-Kyd" secondAttribute="leading" id="uY2-Tu-aGc"/>
             </constraints>
             <size key="customSize" width="779" height="1476"/>
             <connections>
+                <outlet property="IMDbLabel" destination="CNz-jd-XRl" id="gSV-Og-yep"/>
+                <outlet property="dateLabel" destination="xD3-oa-A7f" id="FfW-KT-jDE"/>
+                <outlet property="genreLabel1" destination="R2w-Gv-RlG" id="vvc-nt-Ll0"/>
                 <outlet property="namelabel" destination="aOg-1f-Kyd" id="Lz1-fX-erP"/>
                 <outlet property="studiaLabel" destination="sft-DM-DB9" id="Fai-4V-ArV"/>
                 <outlet property="textInfo" destination="TGw-Zr-Pim" id="b15-y1-wdR"/>
@@ -68,9 +131,7 @@
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="Group 262" width="24" height="24"/>
         <image name="movie 1" width="390" height="238"/>
-        <systemColor name="scrollViewTexturedBackgroundColor">
-            <color red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>

@@ -24,10 +24,17 @@
 		072587A12B2F057500A693B5 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725879F2B2F057500A693B5 /* DetailsCell.swift */; };
 		072587A22B2F057500A693B5 /* DetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 072587A02B2F057500A693B5 /* DetailsCell.xib */; };
 		072EABDF2B2F79A2004C0114 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABDE2B2F79A2004C0114 /* HomeCoordinator.swift */; };
-		072EABE22B308EB4004C0114 /* DetailsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABE12B308EB4004C0114 /* DetailsManager.swift */; };
+		072EABE22B308EB4004C0114 /* GenreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABE12B308EB4004C0114 /* GenreManager.swift */; };
 		072EABE42B309128004C0114 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABE32B309128004C0114 /* Details.swift */; };
-		072EABE62B309E6B004C0114 /* DetailsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABE52B309E6B004C0114 /* DetailsHelper.swift */; };
+		072EABE62B309E6B004C0114 /* GenreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABE52B309E6B004C0114 /* GenreHelper.swift */; };
 		072EABE82B309EBB004C0114 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABE72B309EBB004C0114 /* DetailsViewModel.swift */; };
+		072EABF22B3184D4004C0114 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 072EABF12B3184D4004C0114 /* JGProgressHUD */; };
+		072EABF52B319B22004C0114 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABF42B319B22004C0114 /* Genre.swift */; };
+		072EABF72B319B32004C0114 /* GenreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABF62B319B31004C0114 /* GenreController.swift */; };
+		072EABF92B319B44004C0114 /* GenreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABF82B319B44004C0114 /* GenreCell.swift */; };
+		072EABFB2B319B4F004C0114 /* GenreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EABFA2B319B4F004C0114 /* GenreViewModel.swift */; };
+		072EAC022B31A3DF004C0114 /* DetailsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EAC012B31A3DF004C0114 /* DetailsHelper.swift */; };
+		072EAC042B31A3E7004C0114 /* DetailsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EAC032B31A3E7004C0114 /* DetailsManager.swift */; };
 		0742E8EB2B0272CE008A0EB2 /* LoginControllerr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742E8EA2B0272CE008A0EB2 /* LoginControllerr.swift */; };
 		0742E8F12B02735E008A0EB2 /* Button Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742E8F02B02735E008A0EB2 /* Button Extension.swift */; };
 		0742E8F32B027372008A0EB2 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742E8F22B027372008A0EB2 /* Main.swift */; };
@@ -65,10 +72,16 @@
 		0725879F2B2F057500A693B5 /* DetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
 		072587A02B2F057500A693B5 /* DetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsCell.xib; sourceTree = "<group>"; };
 		072EABDE2B2F79A2004C0114 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
-		072EABE12B308EB4004C0114 /* DetailsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsManager.swift; sourceTree = "<group>"; };
+		072EABE12B308EB4004C0114 /* GenreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreManager.swift; sourceTree = "<group>"; };
 		072EABE32B309128004C0114 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
-		072EABE52B309E6B004C0114 /* DetailsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHelper.swift; sourceTree = "<group>"; };
+		072EABE52B309E6B004C0114 /* GenreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreHelper.swift; sourceTree = "<group>"; };
 		072EABE72B309EBB004C0114 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		072EABF42B319B22004C0114 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		072EABF62B319B31004C0114 /* GenreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreController.swift; sourceTree = "<group>"; };
+		072EABF82B319B44004C0114 /* GenreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCell.swift; sourceTree = "<group>"; };
+		072EABFA2B319B4F004C0114 /* GenreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewModel.swift; sourceTree = "<group>"; };
+		072EAC012B31A3DF004C0114 /* DetailsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsHelper.swift; path = "CinemaPlus/Main/TabBar Controller/Scene/HomeController/Genre/DetailsHelper.swift"; sourceTree = SOURCE_ROOT; };
+		072EAC032B31A3E7004C0114 /* DetailsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsManager.swift; path = "CinemaPlus/Main/TabBar Controller/Scene/HomeController/Genre/DetailsManager.swift"; sourceTree = SOURCE_ROOT; };
 		0742E8EA2B0272CE008A0EB2 /* LoginControllerr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerr.swift; sourceTree = "<group>"; };
 		0742E8F02B02735E008A0EB2 /* Button Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Extension.swift"; sourceTree = "<group>"; };
 		0742E8F22B027372008A0EB2 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
@@ -97,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072EABF22B3184D4004C0114 /* JGProgressHUD in Frameworks */,
 				E95378B0C9DF1B400C584B3C /* Pods_CinemaPlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +139,7 @@
 			children = (
 				0725879B2B2F04FF00A693B5 /* HomeController */,
 				0725879C2B2F051100A693B5 /* MovieDetails */,
+				072EABF32B319AE4004C0114 /* Genre */,
 			);
 			path = HomeController;
 			sourceTree = "<group>";
@@ -134,7 +149,8 @@
 			children = (
 				0713B6402B063DF800ABFF47 /* Core */,
 				0713B6452B063EA300ABFF47 /* Home Manager */,
-				072EABE02B308E91004C0114 /* DetailsManager */,
+				072EABFC2B319D8A004C0114 /* DetailsManager */,
+				072EABE02B308E91004C0114 /* GenreManager */,
 			);
 			path = "Network Manager";
 			sourceTree = "<group>";
@@ -190,11 +206,31 @@
 			path = HomeCoordinator;
 			sourceTree = "<group>";
 		};
-		072EABE02B308E91004C0114 /* DetailsManager */ = {
+		072EABE02B308E91004C0114 /* GenreManager */ = {
 			isa = PBXGroup;
 			children = (
-				072EABE12B308EB4004C0114 /* DetailsManager.swift */,
-				072EABE52B309E6B004C0114 /* DetailsHelper.swift */,
+				072EABE12B308EB4004C0114 /* GenreManager.swift */,
+				072EABE52B309E6B004C0114 /* GenreHelper.swift */,
+			);
+			path = GenreManager;
+			sourceTree = "<group>";
+		};
+		072EABF32B319AE4004C0114 /* Genre */ = {
+			isa = PBXGroup;
+			children = (
+				072EABF42B319B22004C0114 /* Genre.swift */,
+				072EABF62B319B31004C0114 /* GenreController.swift */,
+				072EABFA2B319B4F004C0114 /* GenreViewModel.swift */,
+				072EABF82B319B44004C0114 /* GenreCell.swift */,
+			);
+			path = Genre;
+			sourceTree = "<group>";
+		};
+		072EABFC2B319D8A004C0114 /* DetailsManager */ = {
+			isa = PBXGroup;
+			children = (
+				072EAC032B31A3E7004C0114 /* DetailsManager.swift */,
+				072EAC012B31A3DF004C0114 /* DetailsHelper.swift */,
 			);
 			path = DetailsManager;
 			sourceTree = "<group>";
@@ -418,6 +454,9 @@
 			dependencies = (
 			);
 			name = CinemaPlus;
+			packageProductDependencies = (
+				072EABF12B3184D4004C0114 /* JGProgressHUD */,
+			);
 			productName = CinemaPlus;
 			productReference = 07E0B8FE2AFE78D000A4DD60 /* CinemaPlus.app */;
 			productType = "com.apple.product-type.application";
@@ -446,6 +485,9 @@
 				Base,
 			);
 			mainGroup = 07E0B8F52AFE78D000A4DD60;
+			packageReferences = (
+				072EABF02B3184D4004C0114 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
 			productRefGroup = 07E0B8FF2AFE78D000A4DD60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -520,7 +562,7 @@
 			files = (
 				0713B6472B063EC600ABFF47 /* HomeManager.swift in Sources */,
 				0713B65A2B065B1F00ABFF47 /* View Extension.swift in Sources */,
-				072EABE62B309E6B004C0114 /* DetailsHelper.swift in Sources */,
+				072EABE62B309E6B004C0114 /* GenreHelper.swift in Sources */,
 				072587A12B2F057500A693B5 /* DetailsCell.swift in Sources */,
 				0742E8F32B027372008A0EB2 /* Main.swift in Sources */,
 				07E0B9022AFE78D000A4DD60 /* AppDelegate.swift in Sources */,
@@ -529,7 +571,9 @@
 				0742E8F72B03C37E008A0EB2 /* OnboardingCoordinator.swift in Sources */,
 				07E0B9042AFE78D000A4DD60 /* SceneDelegate.swift in Sources */,
 				0713B64A2B063F5300ABFF47 /* Home.swift in Sources */,
+				072EAC042B31A3E7004C0114 /* DetailsManager.swift in Sources */,
 				07E0B9172AFE7A3000A4DD60 /* OnboardingController.swift in Sources */,
+				072EABFB2B319B4F004C0114 /* GenreViewModel.swift in Sources */,
 				0713B63D2B063C1600ABFF47 /* HomeController.swift in Sources */,
 				0713B6442B063E9200ABFF47 /* NetworkHelper.swift in Sources */,
 				0725879E2B2F053900A693B5 /* DetailsController.swift in Sources */,
@@ -537,16 +581,20 @@
 				0742E8FA2B03C486008A0EB2 /* LoginCoordinator.swift in Sources */,
 				0742E9052B048D5E008A0EB2 /* Constant.swift in Sources */,
 				0713B6422B063E3200ABFF47 /* NetworkManager.swift in Sources */,
+				072EAC022B31A3DF004C0114 /* DetailsHelper.swift in Sources */,
 				0725879A2B2F007F00A693B5 /* CardAnimation.swift in Sources */,
 				0742E91D2B04DDF7008A0EB2 /* TabBarController.swift in Sources */,
-				072EABE22B308EB4004C0114 /* DetailsManager.swift in Sources */,
+				072EABE22B308EB4004C0114 /* GenreManager.swift in Sources */,
 				072EABDF2B2F79A2004C0114 /* HomeCoordinator.swift in Sources */,
+				072EABF92B319B44004C0114 /* GenreCell.swift in Sources */,
+				072EABF52B319B22004C0114 /* Genre.swift in Sources */,
 				0713B6562B06424E00ABFF47 /* HomeViewModel.swift in Sources */,
 				0742E8F12B02735E008A0EB2 /* Button Extension.swift in Sources */,
 				0713B6542B0641B700ABFF47 /* Home Helper.swift in Sources */,
 				0713B6582B065A4D00ABFF47 /* CollectionView Extension.swift in Sources */,
 				072EABE42B309128004C0114 /* Details.swift in Sources */,
 				072EABE82B309EBB004C0114 /* DetailsViewModel.swift in Sources */,
+				072EABF72B319B32004C0114 /* GenreController.swift in Sources */,
 				0713B64F2B063FEA00ABFF47 /* HomeCell.swift in Sources */,
 				0742E8FF2B03CA1E008A0EB2 /* RegisterController.swift in Sources */,
 			);
@@ -771,6 +819,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		072EABF02B3184D4004C0114 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		072EABF12B3184D4004C0114 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072EABF02B3184D4004C0114 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07E0B8F62AFE78D000A4DD60 /* Project object */;
 }

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JGProgressHUD
 
 class HomeController: UIViewController {
 
@@ -23,7 +24,41 @@ class HomeController: UIViewController {
         configureUI()
         confiqureViewModel()
         CustomCollectionView()
+        progressTimer()
     }
+    
+    private func progressTimer() {
+        DispatchQueue.main.asyncAfter(deadline: .now()+1, execute: {self.showExample()
+        })
+    }
+    
+   
+    private func showExample() {
+        let hud = JGProgressHUD()
+        hud.indicatorView = JGProgressHUDIndicatorView()
+        hud.textLabel.text = "Dowloading"
+        hud.detailTextLabel.text = "0%"
+        hud.tintColor? = .purple
+        hud.show(in: view)
+        
+        var progress: Float = 0.0
+        Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
+            progress += 0.1
+            hud.setProgress(progress, animated: true)
+            let value: Float = progress / 1.0
+            hud.detailTextLabel.text = "\(Int(value * 100.0))%"
+            if progress > 1.0 {
+                timer.invalidate()
+                
+                hud.indicatorView = JGProgressHUDSuccessIndicatorView()
+                hud.detailTextLabel.text = nil
+                hud.textLabel.text = "Success!"
+                hud.dismiss(afterDelay: 2)
+            }
+        }
+    }
+    
+  
     
     private func CustomCollectionView() {
         homeCollection.isPagingEnabled = true
@@ -56,6 +91,24 @@ class HomeController: UIViewController {
             self.viewModel.getPopularMovie()
         }
     }
+    
+    @IBAction func genreClicked(_ sender: Any) {
+        DispatchQueue.main.asyncAfter(deadline: .now()+1, execute: {self.showExample()
+        })
+        
+        coordinator?.showMoviesGenre()
+    }
+    
+    @IBAction func topClicked(_ sender: Any) {
+    }
+    
+    @IBAction func languageClicked(_ sender: Any) {
+    }
+    
+    @IBAction func watchedClicked(_ sender: Any) {
+    }
+    
+    
 }
 
 

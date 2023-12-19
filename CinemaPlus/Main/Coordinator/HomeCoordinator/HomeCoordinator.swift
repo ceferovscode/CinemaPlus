@@ -21,5 +21,11 @@ class HomeCoordinator {
         navigationController.show(controller, sender: nil)
     }
     
+    func showMoviesGenre() {
+        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "GenreController") as! GenreController
+        navigationController.show(controller, sender: nil)
+    }
+   
+    
 }
     

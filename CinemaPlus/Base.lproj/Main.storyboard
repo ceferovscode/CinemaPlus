@@ -634,6 +634,9 @@ for free!</string>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="genreClicked:" destination="Fha-8U-d41" eventType="touchUpInside" id="Chc-d7-abX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPR-23-it4">
                                         <rect key="frame" x="98.333333333333343" y="0.0" width="82.333333333333343" height="49"/>
@@ -646,6 +649,9 @@ for free!</string>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="topClicked:" destination="Fha-8U-d41" eventType="touchUpInside" id="lAZ-sb-7pT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDP-vX-uEU">
                                         <rect key="frame" x="196.66666666666666" y="0.0" width="81.999999999999972" height="49"/>
@@ -658,6 +664,9 @@ for free!</string>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="languageClicked:" destination="Fha-8U-d41" eventType="touchUpInside" id="4pN-Cn-32D"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHk-Bl-aZQ">
                                         <rect key="frame" x="294.66666666666669" y="0.0" width="82.333333333333314" height="49"/>
@@ -670,6 +679,9 @@ for free!</string>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="watchedClicked:" destination="Fha-8U-d41" eventType="touchUpInside" id="hmV-aM-fgD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -796,7 +808,69 @@ for free!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPb-6l-ym4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2059" y="615"/>
+            <point key="canvasLocation" x="2048" y="615"/>
+        </scene>
+        <!--Genre Controller-->
+        <scene sceneID="Fbh-cZ-zmW">
+            <objects>
+                <viewController storyboardIdentifier="GenreController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h3N-6l-hhg" customClass="GenreController" customModule="CinemaPlus" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q1c-VH-F6p">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2WK-CO-1L2">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GenreCell" id="UAG-DF-dZK" customClass="GenreCell" customModule="CinemaPlus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="42.333332061767578"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UAG-DF-dZK" id="q1W-87-5aH">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="42.333332061767578"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hn2-gD-Y6j">
+                                                    <rect key="frame" x="20" y="10.999999999999998" width="353" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Hn2-gD-Y6j" firstAttribute="leading" secondItem="q1W-87-5aH" secondAttribute="leadingMargin" id="8NU-do-RdI"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Hn2-gD-Y6j" secondAttribute="trailing" id="8Op-Rz-wfk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Hn2-gD-Y6j" secondAttribute="bottom" id="lXj-w7-NgS"/>
+                                                <constraint firstItem="Hn2-gD-Y6j" firstAttribute="top" secondItem="q1W-87-5aH" secondAttribute="topMargin" id="mfO-2x-pge"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="Hn2-gD-Y6j" id="NY1-gP-2le"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="h3N-6l-hhg" id="LSm-Bt-BFk"/>
+                                    <outlet property="delegate" destination="h3N-6l-hhg" id="fUh-wy-pvQ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0ZX-7a-s9M"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2WK-CO-1L2" firstAttribute="leading" secondItem="0ZX-7a-s9M" secondAttribute="leading" id="MLU-iQ-MYq"/>
+                            <constraint firstItem="0ZX-7a-s9M" firstAttribute="trailing" secondItem="2WK-CO-1L2" secondAttribute="trailing" id="aMl-7v-PvL"/>
+                            <constraint firstItem="0ZX-7a-s9M" firstAttribute="bottom" secondItem="2WK-CO-1L2" secondAttribute="bottom" id="p6j-nW-sdk"/>
+                            <constraint firstItem="2WK-CO-1L2" firstAttribute="top" secondItem="0ZX-7a-s9M" secondAttribute="top" id="tlo-Pb-H08"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="genreTableView" destination="2WK-CO-1L2" id="6nK-dD-IFC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jte-H6-czg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2820" y="612"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="seK-Dz-9Au">

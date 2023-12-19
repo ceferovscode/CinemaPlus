@@ -13,16 +13,16 @@ target 'CinemaPlus' do
 
   pod 'SDWebImage'
 
-  pod 'PanModal'
-
   pod 'FirebaseCore'
   
   pod 'FirebaseDatabase'
  	
-	
+
   pod 'FirebaseAuth'
   
-  pod 'lottie-ios'
+
+
+
   
 
 

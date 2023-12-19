@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JGProgressHUD
 
 class DetailsController: UIViewController {
     
@@ -20,9 +21,11 @@ class DetailsController: UIViewController {
         
         configureUI()
         configureViewModel()
-        
 
     }
+    
+    
+    
     
     private func configureUI() {
         detailsCollection.register(UINib(nibName: cellId, bundle: nil), forCellWithReuseIdentifier: cellId)
@@ -34,7 +37,7 @@ class DetailsController: UIViewController {
             self.detailsCollection.reloadData()
         }
     }
-
+    
 }
 
 

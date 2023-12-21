@@ -45,6 +45,12 @@
 		0742E9052B048D5E008A0EB2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742E9042B048D5D008A0EB2 /* Constant.swift */; };
 		0742E9082B048FFF008A0EB2 /* AutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742E9072B048FFF008A0EB2 /* AutService.swift */; };
 		0742E91D2B04DDF7008A0EB2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742E91C2B04DDF7008A0EB2 /* TabBarController.swift */; };
+		076854FE2B32F68200E8D185 /* NameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076854FD2B32F68200E8D185 /* NameController.swift */; };
+		076855002B32F68C00E8D185 /* NameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076854FF2B32F68C00E8D185 /* NameViewModel.swift */; };
+		076855032B33052A00E8D185 /* NameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076855022B33052A00E8D185 /* NameManager.swift */; };
+		076855052B33052F00E8D185 /* nameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076855042B33052F00E8D185 /* nameHelper.swift */; };
+		076855082B34D71800E8D185 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076855062B34D71800E8D185 /* NameCell.swift */; };
+		076855092B34D71800E8D185 /* NameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076855072B34D71800E8D185 /* NameCell.xib */; };
 		07E0B9022AFE78D000A4DD60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0B9012AFE78D000A4DD60 /* AppDelegate.swift */; };
 		07E0B9042AFE78D000A4DD60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0B9032AFE78D000A4DD60 /* SceneDelegate.swift */; };
 		07E0B9092AFE78D000A4DD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E0B9072AFE78D000A4DD60 /* Main.storyboard */; };
@@ -92,6 +98,12 @@
 		0742E9042B048D5D008A0EB2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0742E9072B048FFF008A0EB2 /* AutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutService.swift; sourceTree = "<group>"; };
 		0742E91C2B04DDF7008A0EB2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		076854FD2B32F68200E8D185 /* NameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameController.swift; sourceTree = "<group>"; };
+		076854FF2B32F68C00E8D185 /* NameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewModel.swift; sourceTree = "<group>"; };
+		076855022B33052A00E8D185 /* NameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameManager.swift; sourceTree = "<group>"; };
+		076855042B33052F00E8D185 /* nameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameHelper.swift; sourceTree = "<group>"; };
+		076855062B34D71800E8D185 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		076855072B34D71800E8D185 /* NameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameCell.xib; sourceTree = "<group>"; };
 		07E0B8FE2AFE78D000A4DD60 /* CinemaPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E0B9012AFE78D000A4DD60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E0B9032AFE78D000A4DD60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				0713B63E2B063C1A00ABFF47 /* HomeController */,
+				076854F92B32F65000E8D185 /* VieoController */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -148,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				0713B6402B063DF800ABFF47 /* Core */,
+				076855012B33051000E8D185 /* NameManager */,
 				0713B6452B063EA300ABFF47 /* Home Manager */,
 				072EABFC2B319D8A004C0114 /* DetailManager */,
 				072EABE02B308E91004C0114 /* GenreManager */,
@@ -374,6 +388,34 @@
 			path = "TabBar Controller";
 			sourceTree = "<group>";
 		};
+		076854F92B32F65000E8D185 /* VieoController */ = {
+			isa = PBXGroup;
+			children = (
+				076854FA2B32F66500E8D185 /* MovieName */,
+			);
+			path = VieoController;
+			sourceTree = "<group>";
+		};
+		076854FA2B32F66500E8D185 /* MovieName */ = {
+			isa = PBXGroup;
+			children = (
+				076854FD2B32F68200E8D185 /* NameController.swift */,
+				076854FF2B32F68C00E8D185 /* NameViewModel.swift */,
+				076855062B34D71800E8D185 /* NameCell.swift */,
+				076855072B34D71800E8D185 /* NameCell.xib */,
+			);
+			path = MovieName;
+			sourceTree = "<group>";
+		};
+		076855012B33051000E8D185 /* NameManager */ = {
+			isa = PBXGroup;
+			children = (
+				076855022B33052A00E8D185 /* NameManager.swift */,
+				076855042B33052F00E8D185 /* nameHelper.swift */,
+			);
+			path = NameManager;
+			sourceTree = "<group>";
+		};
 		07E0B8F52AFE78D000A4DD60 = {
 			isa = PBXGroup;
 			children = (
@@ -506,6 +548,7 @@
 				0742E9012B03D33B008A0EB2 /* GoogleService-Info.plist in Resources */,
 				07E0B90B2AFE78D300A4DD60 /* Assets.xcassets in Resources */,
 				07E0B9092AFE78D000A4DD60 /* Main.storyboard in Resources */,
+				076855092B34D71800E8D185 /* NameCell.xib in Resources */,
 				072587A22B2F057500A693B5 /* DetailsCell.xib in Resources */,
 				0713B6502B063FEA00ABFF47 /* HomeCell.xib in Resources */,
 			);
@@ -562,6 +605,7 @@
 			files = (
 				0713B6472B063EC600ABFF47 /* HomeManager.swift in Sources */,
 				0713B65A2B065B1F00ABFF47 /* View Extension.swift in Sources */,
+				076855052B33052F00E8D185 /* nameHelper.swift in Sources */,
 				072EABE62B309E6B004C0114 /* GenreHelper.swift in Sources */,
 				072587A12B2F057500A693B5 /* DetailsCell.swift in Sources */,
 				0742E8F32B027372008A0EB2 /* Main.swift in Sources */,
@@ -582,10 +626,14 @@
 				0742E9052B048D5E008A0EB2 /* Constant.swift in Sources */,
 				0713B6422B063E3200ABFF47 /* NetworkManager.swift in Sources */,
 				072EAC022B31A3DF004C0114 /* DetailsHelper.swift in Sources */,
+				076854FE2B32F68200E8D185 /* NameController.swift in Sources */,
 				0725879A2B2F007F00A693B5 /* CardAnimation.swift in Sources */,
 				0742E91D2B04DDF7008A0EB2 /* TabBarController.swift in Sources */,
 				072EABE22B308EB4004C0114 /* GenreManager.swift in Sources */,
+				076855002B32F68C00E8D185 /* NameViewModel.swift in Sources */,
 				072EABDF2B2F79A2004C0114 /* HomeCoordinator.swift in Sources */,
+				076855032B33052A00E8D185 /* NameManager.swift in Sources */,
+				076855082B34D71800E8D185 /* NameCell.swift in Sources */,
 				072EABF92B319B44004C0114 /* GenreCell.swift in Sources */,
 				072EABF52B319B22004C0114 /* Genre.swift in Sources */,
 				0713B6562B06424E00ABFF47 /* HomeViewModel.swift in Sources */,

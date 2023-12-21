@@ -16,6 +16,7 @@ class LoginControllerr: UIViewController {
     @IBOutlet private var CustomView            : UIView!
     @IBOutlet private weak var regsiterButton   : UIButton!
     
+    
     private var coordinator: LoginCoordinator?
     
     override func viewDidLoad() {

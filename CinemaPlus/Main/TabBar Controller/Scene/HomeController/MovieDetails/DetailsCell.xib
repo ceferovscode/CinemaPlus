@@ -44,7 +44,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGw-Zr-Pim">
-                        <rect key="frame" x="8" y="975.66666666666663" width="779" height="458.33333333333337"/>
+                        <rect key="frame" x="8" y="1015.6666666666666" width="779" height="418.33333333333337"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <string key="text">Jared Leto as Dr. Michael Morbius: A scientist suffering from a rare blood disease whose attempts to cure himself afflict him with a form of transgenic vampirism, gaining all of the superhuman abilities but none of the superstitious weaknesses associated with vampires.</string>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -101,7 +101,7 @@
                 <constraint firstItem="aOg-1f-Kyd" firstAttribute="top" secondItem="My6-fZ-fnn" secondAttribute="bottom" constant="8" id="UXF-1f-mkH"/>
                 <constraint firstItem="R2w-Gv-RlG" firstAttribute="top" secondItem="ini-7A-vXZ" secondAttribute="bottom" constant="8.6666666666666288" id="UnO-3p-pJp"/>
                 <constraint firstItem="TGw-Zr-Pim" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" constant="8" id="Z2a-qx-8z0"/>
-                <constraint firstItem="TGw-Zr-Pim" firstAttribute="top" secondItem="My6-fZ-fnn" secondAttribute="bottom" constant="160" id="Zm6-z6-jVl"/>
+                <constraint firstItem="TGw-Zr-Pim" firstAttribute="top" secondItem="My6-fZ-fnn" secondAttribute="bottom" constant="200" id="Zm6-z6-jVl"/>
                 <constraint firstItem="aOg-1f-Kyd" firstAttribute="leading" secondItem="My6-fZ-fnn" secondAttribute="leading" id="aJz-vd-ULP"/>
                 <constraint firstItem="ini-7A-vXZ" firstAttribute="top" secondItem="aOg-1f-Kyd" secondAttribute="bottom" constant="45" id="atg-A3-V0g"/>
                 <constraint firstItem="CNz-jd-XRl" firstAttribute="top" secondItem="aOg-1f-Kyd" secondAttribute="bottom" constant="8" id="bMz-Yp-NUg"/>

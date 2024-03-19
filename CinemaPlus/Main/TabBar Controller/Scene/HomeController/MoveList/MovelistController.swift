@@ -15,6 +15,7 @@ class MovelistController: UIViewController {
     private let refreshController = UIRefreshControl()
     private var viewModel = MoveListViewModel()
     private let cellId = "\(MoveListCell.self)"
+    private var coordinator: HomeCoordinator?
 
     
     
@@ -24,6 +25,7 @@ class MovelistController: UIViewController {
         
         configureUI()
         confiqureViewModel()
+        configureCoordinator()
         
         
     }
@@ -32,6 +34,11 @@ class MovelistController: UIViewController {
         super.viewDidAppear(animated)
         listTableView.contentSize.height = 1000
     }
+    
+    private func configureCoordinator() {
+        coordinator = HomeCoordinator(navigationController: navigationController ?? UINavigationController())
+    }
+   
     
     private func configureUI() {
         refreshController.addTarget(self, action: #selector(pullToRefresh), for: .valueChanged)
@@ -79,6 +86,11 @@ extension MovelistController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         viewModel.pagination(index: indexPath.row)
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        coordinator?.showNameList(movieId: viewModel.items[indexPath.row].id ?? 0)
+        
     }
     
     

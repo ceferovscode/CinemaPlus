@@ -11,10 +11,12 @@ class VideoManager  {
     
     static let shared = VideoManager()
     
-    func getGenresMovies(complete: @escaping ((MovieGen?, String?) -> ())) {
-        NetworkManager.shared.request(model: MovieGen.self,
-                                      url: VideoEndPoint.details.path,
-                                      complete: complete)
+    func getmovieDetails(id: Int, completion: @escaping ((NameList?, String?) -> ())) {
+        NetworkManager.shared.request(model: NameList.self,
+                                      url: NetworkHelper.shared.urlConfiqure(path: "movie/\(id)/videos"),
+                                      complete: completion)
+        
+        
     }
     
     

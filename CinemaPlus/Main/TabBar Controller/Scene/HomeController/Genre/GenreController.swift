@@ -85,6 +85,11 @@ class GenreController: UIViewController {
             self.viewModel.getMoviesGenres()
         }
     }
+    
+    @IBAction func genreClicked(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
+    
    
 }
 

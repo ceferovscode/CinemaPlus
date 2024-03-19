@@ -97,12 +97,12 @@ class LoginControllerr: UIViewController {
                 return
             }
             
-            if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-                if let sceneDelegate: SceneDelegate = (scene.delegate as? SceneDelegate) {
-                    UserDefaults.standard.set(false, forKey: "loggedIn")
-                    sceneDelegate.setTabbarRootController(windowScene: scene)
-                    
-                }
+            if let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let tabBarController = storyboard.instantiateViewController(withIdentifier: "TabController") as! UITabBarController
+                sceneDelegate.window?.rootViewController = tabBarController
+                sceneDelegate.window?.makeKeyAndVisible()
+                UserDefaults.standard.set(true, forKey: "login")
             }
         }
     }

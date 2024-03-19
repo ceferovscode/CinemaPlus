@@ -15,40 +15,41 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
+        let window = UIWindow(windowScene: windowScene)
+            self.window = window
+        
+
+        
         if UserDefaults.standard.bool(forKey: "onboardingPassed") {
-            if UserDefaults.standard.bool(forKey: "loggedIn") {
-                setTabbarRootController(windowScene: windowScene)
+                if UserDefaults.standard.bool(forKey: "login") {
+                    setTabbarRootController(window: window)
+                } else {
+                    setLoginRootController(window: window)
+                }
             } else {
-                setLoginRootController(windowScene: windowScene)
+                setOnboardRootController(window: window)
             }
-        } else {
-            setOnboardRootController(windowScene: windowScene)
         }
-    }
     
-    func setOnboardRootController(windowScene: UIWindowScene) {
+    func setOnboardRootController(window: UIWindow) {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "OnboardingController") as! OnboardingController
         let navigationController = UINavigationController(rootViewController: controller)
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
+        window.rootViewController = navigationController
+        window.makeKeyAndVisible()
     }
-    
-    func setLoginRootController(windowScene: UIWindowScene) {
+
+    func setLoginRootController(window: UIWindow) {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginControllerr") as! LoginControllerr
         let navigationController = UINavigationController(rootViewController: controller)
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
+        window.rootViewController = navigationController
+        window.makeKeyAndVisible()
     }
-    
-    func setTabbarRootController(windowScene: UIWindowScene) {
-        if window == nil {
-            window = UIWindow(windowScene: windowScene)
-        }
+
+    func setTabbarRootController(window: UIWindow) {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabController") as! UITabBarController
-        window?.rootViewController = controller
-        window?.makeKeyAndVisible()
+        window.rootViewController = controller
+        window.makeKeyAndVisible()
     }
-    
     
     
     func sceneDidDisconnect(_ scene: UIScene) {

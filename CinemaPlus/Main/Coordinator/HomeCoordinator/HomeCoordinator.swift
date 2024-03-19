@@ -25,11 +25,24 @@ class HomeCoordinator {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "GenreController") as! GenreController
         navigationController.show(controller, sender: nil)
     }
-   
+    
     func showVideoList() {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "MovelistController") as! MovelistController
         navigationController.show(controller, sender: nil)
     }
     
+    func showNameList(movieId: Int) {
+        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "NameListController") as! NameListController
+        controller.viewModel.movieID = movieId
+        navigationController.show(controller, sender: nil)
+    }
+    
+    func showVideo(videoId: String) {
+        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VideoController") as! VideoController
+        controller.viewModel.movieID = videoId
+        navigationController.show(controller, sender: nil)
+    }
 }
+    
+
     

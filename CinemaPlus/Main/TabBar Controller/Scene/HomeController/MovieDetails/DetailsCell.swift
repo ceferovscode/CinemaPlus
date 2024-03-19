@@ -29,9 +29,4 @@ class DetailsCell: UICollectionViewCell {
         genreLabel1.text      = data.genres?.first?.name
         titleImageview.loadUrl(url)
     }
-    
-    @IBAction func trailerClicked(_ sender: Any) {
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "DetailsController") as! DetailsController
-    }
-    
 }
